@@ -1,7 +1,11 @@
 :root {
   --main-bg-color: blue;
+  --main-font-color: white;
+  --main-font-size: 100%;
 }
 
 body{
   background-color: var(--main-bg-color);
+  color: var(--main-font-color);
+  font-size: var(--main-font-size);
 }
