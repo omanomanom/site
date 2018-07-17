@@ -5,7 +5,10 @@
   --main-bg-color: blue;
 
   /* General Border */
+  --main-border-size: 2px;
+  --main-border-type: solid;
   --main-border-color: red;
+  --main-border: var(--main-border-size) var(--main-border-type) var(--main-border-color);
 
   /* General Text */
   --main-font-color: white;
@@ -27,7 +30,6 @@
   --header-pos: absolute;
   --header-pos-x: 0;
   --header-pos-y: 0;
-  --header-border: 20px solid var(--main-border-color);
   --header-bg-color: yellow;
 
 
@@ -46,7 +48,6 @@
   --footer-pos: absolute;
   --footer-pos-x: 0;
   --footer-pos-y: 90%;
-  --footer-border: 2px solid var(--main-border-color);
   --footer-bg-color: blue;
 
 
@@ -81,7 +82,7 @@ div.body > div.header {
   position: var(--header-pos);
   top: var(--header-pos-y);
   left: var(--header-pos-x);
-  border-bottom: var(--header-border);
+  border-bottom: var(--main-border);
 
 }
 
@@ -105,6 +106,6 @@ div.body > div.footer {
   position: var(--footer-pos);
   top: var(--footer-pos-y);
   left: var(--footer-pos-x);
-  border-top: var(--footer-border);
+  border-top: var(--main-border);
 
 }
