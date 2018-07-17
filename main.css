@@ -2,7 +2,7 @@
   /* General Values */
 
   /* General Background */
-  --main-bg-color: blue;
+  --main-bg-color: black;
 
   /* General Border */
   --main-border-size: 2px;
@@ -30,16 +30,16 @@
   --header-pos: absolute;
   --header-pos-x: 0;
   --header-pos-y: 0;
-  --header-bg-color: yellow;
+  --header-bg-color: black;
 
 
   /* Page */
   --page-width: 100%;
-  --page-height: 80%;
+  --page-height: 90%;
   --page-pos: absolute;
   --page-pos-x: 0;
   --page-pos-y: 10%;
-  --page-bg-color: green;
+  --page-bg-color: #151515;
 
 
 }
