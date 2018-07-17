@@ -42,15 +42,6 @@
   --page-bg-color: green;
 
 
-  /* Footer */
-  --footer-width: 100%;
-  --footer-height: 10%;
-  --footer-pos: absolute;
-  --footer-pos-x: 0;
-  --footer-pos-y: 90%;
-  --footer-bg-color: blue;
-
-
 }
 
 body{
@@ -95,17 +86,5 @@ div.body > div.page {
   top: var(--page-pos-y);
   left: var(--page-pos-x);
   overflow-y: auto;
-
-}
-
-div.body > div.footer {
-
-  background-color: var(--footer-bg-color);
-  width: var(--footer-width);
-  height: var(--footer-height);
-  position: var(--footer-pos);
-  top: var(--footer-pos-y);
-  left: var(--footer-pos-x);
-  border-top: var(--main-border);
 
 }
