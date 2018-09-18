@@ -1,0 +1,186 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	background-color: black;
+	color: white;
+}
+body {
+	background-image: url(../images/bg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0;
+	position: absolute;
+	top: -10%;
+	height: 110%;
+	text-align: center;
+	font-size: 175%;
+}
+button {
+	width: 40%;
+	height: 20%;
+	border-radius: 25px;
+	background-color: #000;
+	border: none;
+	color: #fff;
+}
+
+button:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+/*             LOGIN BOX                 */
+div.box1 {
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	opacity: 1;
+}
+
+div.box1 > div.tabs {
+	height: 15%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+div.box1 > div.tabs > div.tabActive {
+	height: 100%;
+	width: 50%;
+	background-color: rgba(0,0,0,0.8);
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 1px solid #000;
+	color: rgba(255,255,255,2);
+}
+
+div.box1 > div.tabs > a > div.tab {
+	height: 100%;
+	width: 50%;
+	background-color: rgba(0,0,0,0.6);
+	position: absolute;
+	top: 0;
+	left: 50%;
+	border: 1px solid #000;
+	color: rgba(255,255,255,0.7);
+}
+
+div.box1 > div.tabs > a > div.tab:hover {
+	background-color: rgba(0,0,0,0.8);
+	color: rgba(255,255,255,2);
+	cursor: pointer;
+}
+
+div.box1 > div.innerbox {
+	height: 85%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.6);
+	position: absolute;
+	top: 15%;
+	left: 0;
+	border: 1px solid #000;
+}
+
+div.box1 > div.innerbox > div.login {
+	height: 100%;
+}
+
+div.box1 > div.innerbox > div.login > form {
+	height: 100%;
+}
+
+div.box1 > div.innerbox > div.login > form > input {
+	width: 80%;
+	height: 20%;
+	font-size: 200%;
+	border-radius: 25px;
+	padding-left: 20px;
+}
+
+div.box1 > div.innerbox > div.login > form > button {
+	width: 80%;
+	font-size: 200%;
+}
+/*          REGISTER BOX              */
+div.box2 {
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	top: 25%;
+	left: 125%;
+	opacity: 1;
+}
+
+div.box2 > div.tabs {
+	height: 15%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+div.box2 > div.tabs > div.tabActive {
+	height: 100%;
+	width: 50%;
+	background-color: rgba(0,0,0,0.8);
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 1px solid #000;
+	color: rgba(255,255,255,2);
+}
+
+div.box2 > div.tabs > a > div.tab {
+	height: 100%;
+	width: 50%;
+	background-color: rgba(0,0,0,0.6);
+	position: absolute;
+	top: 0;
+	left: 50%;
+	border: 1px solid #000;
+	color: rgba(255,255,255,0.7);
+}
+
+div.box2 > div.tabs > a > div.tab:hover {
+	background-color: rgba(0,0,0,0.8);
+	color: rgba(255,255,255,2);
+	cursor: pointer;
+}
+
+div.box2 > div.innerbox {
+	height: 85%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.6);
+	position: absolute;
+	top: 15%;
+	left: 0;
+	border: 1px solid #000;
+}
+
+div.box2 > div.innerbox > div.register {
+	height: 100%;
+	display: none;
+}
+
+div.box2 > div.innerbox > div.register > form {
+	height: 100%;
+}
+
+div.box2 > div.innerbox > div.register > form > input {
+	width: 80%;
+	height: 20%;
+	font-size: 200%;
+	border-radius: 25px;
+	padding-left: 20px;
+}
+
+div.box2 > div.innerbox > div.register > form > button {
+	width: 80%;
+	font-size: 200%;
+}
