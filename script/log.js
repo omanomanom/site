@@ -9,12 +9,18 @@ function bg_load() {
 	}
 }
 
-function moveForm() {
-	//var box1 = document.getElementById('box1');
-	var box2 = document.getElementById('box1');
-	//box1.style.left = -75 + '%';
-	box2.style.left = 25 + '%';
-	alert('a');
+function moveFormA() {
+	var box1 = document.getElementById('box1');
+	var box2 = document.getElementById('box2');
+	box1.style.top = -75 + '%';
+	box2.style.top = 25 + '%';
+}
+
+function moveFormB() {
+	var box1 = document.getElementById('box1');
+	var box2 = document.getElementById('box2');
+	box2.style.top = -75 + '%';
+	box1.style.top = 25 + '%';
 }
 
 var opacity = 0;
@@ -23,14 +29,6 @@ var myVar = setInterval(bg_load, 30);
 
 function myStopFunction() {
     clearInterval(myVar);
-}
-
-function swapForm(active) {
-	if (active == 0) {
-		moveForm();
-	} else if (active == 1) {
-		alert('open login');
-	}
 }
 
 window.onload = function() {

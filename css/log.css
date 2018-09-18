@@ -112,8 +112,8 @@ div.box2 {
 	width: 50%;
 	height: 50%;
 	position: absolute;
-	top: 25%;
-	left: 125%;
+	top: 125%;
+	left: 25%;
 	opacity: 1;
 }
 
@@ -165,7 +165,6 @@ div.box2 > div.innerbox {
 
 div.box2 > div.innerbox > div.register {
 	height: 100%;
-	display: none;
 }
 
 div.box2 > div.innerbox > div.register > form {
